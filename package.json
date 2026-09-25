@@ -1,0 +1,40 @@
+{
+  "name": "hexa_b3_dpp",
+  "version": "1.0.0",
+  "description": "API REST de gestion d un annuaire d etudiants (TP CI/CD)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evis201/hexa_b3_dpp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Evis201/hexa_b3_dpp/issues"
+  },
+  "homepage": "https://github.com/Evis201/hexa_b3_dpp#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "jest": "^30.5.2",
+    "jest-environment-node": "^30.5.2",
+    "supertest": "^7.3.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  }
+}
